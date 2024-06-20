@@ -11,19 +11,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Solvers" Type="Folder">
-			<Item Name="DNatt Simple Solver.vi" Type="VI" URL="../Solvers/DNatt Simple Solver.vi"/>
-			<Item Name="Solver.vi" Type="VI" URL="../Solvers/Solver.vi"/>
-		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Wordle Engine.lvlib" Type="Library" URL="../Libraries/Wordle Engine/Wordle Engine.lvlib"/>
 			</Item>
+			<Item Name="DNatt Simple Solver.vi" Type="VI" URL="../Solvers/DNatt Simple Solver.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Single Word.vi" Type="VI" URL="../Libraries/Wordle Engine/Test Single Word.vi"/>
 			<Item Name="Test Wordle Engine API.vi" Type="VI" URL="../Libraries/Wordle Engine/Test Wordle Engine API.vi"/>
 		</Item>
+		<Item Name="Solver.vi" Type="VI" URL="../Solvers/Solver.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
