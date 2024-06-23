@@ -1,0 +1,14 @@
+2024-06-19 21:09:25
+
+[AB_L New Build](0.080)(149120):
+Project:Wordle.lvproj
+Target:My Computer
+BuildSpec:
+OS:Windows 95/NT
+LabVIEW Version: 20.0.1
+
+[AB_L ProjectFileData](0.080)(149120):
+None
+
+[AB_L END](6.425)(149248):
+2024-06-19 21:09:31

@@ -12,104 +12,18 @@
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Arguments" Type="Folder">
-			<Item Name="Request" Type="Folder">
-				<Item Name="Stop Argument--cluster.ctl" Type="VI" URL="../Stop Argument--cluster.ctl"/>
-				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
-				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
-				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
-				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Select New Word Argument--cluster.ctl" Type="VI" URL="../Select New Word Argument--cluster.ctl"/>
-				<Item Name="Select New Word (Reply Payload)--cluster.ctl" Type="VI" URL="../Select New Word (Reply Payload)--cluster.ctl"/>
-				<Item Name="Make a Guess Argument--cluster.ctl" Type="VI" URL="../Make a Guess Argument--cluster.ctl"/>
-				<Item Name="Make a Guess (Reply Payload)--cluster.ctl" Type="VI" URL="../Make a Guess (Reply Payload)--cluster.ctl"/>
-				<Item Name="Apply Solver Argument--cluster.ctl" Type="VI" URL="../Apply Solver Argument--cluster.ctl"/>
-				<Item Name="Apply Solver (Reply Payload)--cluster.ctl" Type="VI" URL="../Apply Solver (Reply Payload)--cluster.ctl"/>
-				<Item Name="Debug - Solve Specific Word Argument--cluster.ctl" Type="VI" URL="../Debug - Solve Specific Word Argument--cluster.ctl"/>
-				<Item Name="Debug - Solve Specific Word (Reply Payload)--cluster.ctl" Type="VI" URL="../Debug - Solve Specific Word (Reply Payload)--cluster.ctl"/>
-			</Item>
-			<Item Name="Broadcast" Type="Folder">
-				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
-				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
-				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
-			</Item>
-		</Item>
-		<Item Name="Requests" Type="Folder">
-			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
-			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
-			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
-			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Select New Word.vi" Type="VI" URL="../Select New Word.vi"/>
-			<Item Name="Make a Guess.vi" Type="VI" URL="../Make a Guess.vi"/>
-			<Item Name="Apply Solver.vi" Type="VI" URL="../Apply Solver.vi"/>
-			<Item Name="Debug - Solve Specific Word.vi" Type="VI" URL="../Debug - Solve Specific Word.vi"/>
-		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Valid Guesses--constant.vi" Type="VI" URL="../Valid Guesses--constant.vi"/>
 			<Item Name="Alphabet--constant.vi" Type="VI" URL="../Alphabet--constant.vi"/>
 			<Item Name="String to Array of Characters.vi" Type="VI" URL="../String to Array of Characters.vi"/>
 			<Item Name="Delete String Array Element.vi" Type="VI" URL="../Delete String Array Element.vi"/>
 		</Item>
-		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
-		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
-		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
-		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
-	</Item>
-	<Item Name="Broadcasts" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Broadcast Events--cluster.ctl" Type="VI" URL="../Broadcast Events--cluster.ctl"/>
-		<Item Name="Obtain Broadcast Events.vi" Type="VI" URL="../Obtain Broadcast Events.vi"/>
-		<Item Name="Destroy Broadcast Events.vi" Type="VI" URL="../Destroy Broadcast Events.vi"/>
-		<Item Name="Module Did Init.vi" Type="VI" URL="../Module Did Init.vi"/>
-		<Item Name="Status Updated.vi" Type="VI" URL="../Status Updated.vi"/>
-		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
-		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
-		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
-	</Item>
-	<Item Name="Requests" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
-		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
-		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
-	</Item>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
-		<Item Name="Evaluate Guess.vi" Type="VI" URL="../Evaluate Guess.vi"/>
-		<Item Name="Generate New Word.vi" Type="VI" URL="../Generate New Word.vi"/>
-		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
-		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
-		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
-		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
-		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
-		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
-		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
-		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
-		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
-		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
-		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
-		<Item Name="Run Solver.vi" Type="VI" URL="../Run Solver.vi"/>
-		<Item Name="Valid Answers--constant.vi" Type="VI" URL="../Valid Answers--constant.vi"/>
-	</Item>
-	<Item Name="Module Sync" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Semaphore" Type="Folder">
-			<Item Name="Obtain Module Semaphore.vi" Type="VI" URL="../Obtain Module Semaphore.vi"/>
-			<Item Name="Acquire Module Semaphore.vi" Type="VI" URL="../Acquire Module Semaphore.vi"/>
-			<Item Name="Release Module Semaphore.vi" Type="VI" URL="../Release Module Semaphore.vi"/>
-			<Item Name="Destroy Module Semaphore Reference.vi" Type="VI" URL="../Destroy Module Semaphore Reference.vi"/>
+		<Item Name="Harness" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Valid Answers--constant.vi" Type="VI" URL="../Valid Answers--constant.vi"/>
+				<Item Name="Evaluate Guess.vi" Type="VI" URL="../Evaluate Guess.vi"/>
+			</Item>
+			<Item Name="Run Test.vi" Type="VI" URL="../Run Test.vi"/>
 		</Item>
-		<Item Name="Destroy Sync Refnums.vi" Type="VI" URL="../Destroy Sync Refnums.vi"/>
-		<Item Name="Get Sync Refnums.vi" Type="VI" URL="../Get Sync Refnums.vi"/>
-		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
-		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
-		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
-	</Item>
-	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
