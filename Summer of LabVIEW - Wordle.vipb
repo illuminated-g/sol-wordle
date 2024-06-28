@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-22 19:29:44" Modified_Date="2024-06-22 22:33:16" Creator="derri" Comments="" ID="d135dd8a8bdbcd511717e1932e920762">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-22 19:29:44" Modified_Date="2024-06-27 20:17:48" Creator="derri" Comments="" ID="d133fffe77bad8e92159685b48013f0a">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_Summer_of_LabVIEW___Wordle</Package_File_Name>
-    <Library_Version>1.1.0.6</Library_Version>
+    <Library_Version>1.2.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -38,11 +38,10 @@ To participate in an active Summer of LabVIEW challenge, ensure you're registere
       <Copyright/>
       <Packager>Darren Nattinger</Packager>
       <URL>https://github.com/illuminated-g/sol-wordle</URL>
-      <Release_Notes>1.1.0.5
-- Remove usage of DQMH
-
-1.0.1.4
-- Add package dependency on DQMH</Release_Notes>
+      <Release_Notes>1.2.0.6
+- Fix bug in Delete String Array Element helper VI
+- Removed separate Answers constant VI as the data set was chosen from the full choices list.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -147,6 +146,9 @@ To participate in an active Summer of LabVIEW challenge, ensure you're registere
       </Namespace_Overrides>
       <Exclusions>
         <Path>Scorer</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>

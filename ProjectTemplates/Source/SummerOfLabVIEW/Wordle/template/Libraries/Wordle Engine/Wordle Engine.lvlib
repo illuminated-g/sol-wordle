@@ -20,7 +20,6 @@
 		</Item>
 		<Item Name="Harness" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Valid Answers--constant.vi" Type="VI" URL="../Valid Answers--constant.vi"/>
 				<Item Name="Evaluate Guess.vi" Type="VI" URL="../Evaluate Guess.vi"/>
 			</Item>
 			<Item Name="Run Test.vi" Type="VI" URL="../Run Test.vi"/>
